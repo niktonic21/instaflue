@@ -1,24 +1,5 @@
 ## Welcome to Instaflue page
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1040499712966373',
-      xfbml      : true,
-      version    : 'v5.0'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
 You can use the [editor on GitHub](https://github.com/niktonic21/instaflue/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
